@@ -2,7 +2,7 @@ import random
 
 def play_again():
     answer = input('Would you like to play again? yes/no').lower()
-    if answer == 'y' or 'yes':
+    if answer == 'y' or answer =='yes':
         play_game()
     else:
         pass
